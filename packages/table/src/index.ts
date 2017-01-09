@@ -5,8 +5,6 @@
  * and https://github.com/palantir/blueprint/blob/master/PATENTS
  */
 
-import "es6-shim";
-
 export {
     Cell,
     ICellProps,

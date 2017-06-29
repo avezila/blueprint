@@ -44,14 +44,7 @@ export declare class Collapse extends AbstractComponent<ICollapseProps, ICollaps
     private contents;
     private height;
     componentWillReceiveProps(nextProps: ICollapseProps): void;
-    render(): React.DOMElement<{
-        className: string;
-        style: {
-            height: string;
-            overflow: string;
-            transition: string;
-        };
-    }, Element>;
+    render(): React.DOMElement<any, Element>;
     componentDidMount(): void;
     componentDidUpdate(): void;
     private contentsRefHandler;
